@@ -4,6 +4,8 @@ html{
 	color:white;
 }
 
+
+
 .Main {
 	height:100%;
 	width:100%;
@@ -11,6 +13,7 @@ html{
 
 	background-image:url('http://cdn.screenrant.com/wp-content/uploads/Godzilla-1954.jpg');
 	background-size:110%;
+	background-size:cover;
 	background-repeat: no-repeat;
 
 
@@ -56,4 +59,66 @@ p{
 	text-align: center;
 	padding-left:5%;
 	font-family:Helvetica;
+}
+
+
+
+
+
+@media screen and (max-width:980px) {
+
+
+
+h1 {
+	font-size:3em;
+}
+
+header{
+	font-size:1.2em;
+}
+
+.email{
+	display:inline-block;
+	padding:2%;
+	margin-left: 21%;
+	margin-top: 2%;
+	text-decoration:none;
+	color:black;
+	background-color:white;	
+	font-size: 1.2em;
+}
+
+p{
+	font-size: 1em;
+}
+
+}
+
+@media screen and (max-width:640px) {
+
+
+
+h1 {
+	font-size:2em;
+}
+
+header{
+	font-size:.8em;
+}
+
+.email{
+	display:inline-block;
+	padding:1%;
+	margin-left: 15%;
+	margin-top: 2%;
+	text-decoration:none;
+	color:black;
+	background-color:white;	
+	font-size: .8em;
+}
+
+p{
+	font-size: .5em;
+}
+
 }
