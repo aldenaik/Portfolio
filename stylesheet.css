@@ -43,6 +43,7 @@ header{
 	padding-bottom: 10% 
 }
 
+
 .email{
 	display:inline-block;
 	padding:3%;
@@ -51,6 +52,16 @@ header{
 	text-decoration:none;
 	color:black;
 	background-color:white;	
+}
+.email:hover{
+	display:inline-block;
+	padding:3%;
+	margin-left: 28%;
+	margin-top: 2%;
+	text-decoration:none;
+	color:white;
+	background-color:black;		
+
 }
 
 p{
