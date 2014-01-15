@@ -48,22 +48,23 @@ header{
 .contact{
 	display:inline-block;
 	padding:3%;
-	margin-left: 28%;
+	margin-left: 0;
 	margin-top: 2%;
 	text-decoration:none;
 	color:white;
-	background-color: rgba(0, 0, 0, 0.23);
+	background-color: rgba(0, 0, 0, 0.45);
 }
 .contact:hover{
 	display:inline-block;
 	padding:3%;
-	margin-left: 28%;
+	margin-left: 0%;
 	margin-top: 2%;
 	text-decoration:none;
 	color:white;
-	background-color:black;		
+	background-color:gray;		
 
 }
+
 
 .Intro{
 	padding-top:5%;
